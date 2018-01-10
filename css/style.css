@@ -49,8 +49,8 @@
     height: 100%;
 }
 
-#whatItIs {
-    background-image: url("../images/whatItIsBackground.png");
+#home {
+    background-image: url("../images/homeBackground.png");
     display: flex;
     justify-content: flex-end;
     padding: 65px 0 0 0;
@@ -79,8 +79,8 @@
 }
 
 .second {
-    /* background-color: #090f14; */    
-    padding: 50px 0;    
+    /* background-color: #090f14; */
+    padding: 50px 0;
     width: 50%;
 }
 
@@ -115,11 +115,11 @@
     font-weight: 500;
 }
 
+
 /* start advantage section */
 
 #advantage {
     background-color: #f4f3f2;
-    
     width: 100%;
 }
 
@@ -152,4 +152,81 @@
     color: #363636;
     text-align: center;
 }
+
+
 /* end advantage section */
+
+
+/* start whatItIs section */
+
+#whatIsIt {
+    padding: 62px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#whatIsIt2 {
+    padding: 33px 0;
+    font-family: 'Century Gothic';
+    background-color: #f4f3f2;
+}
+
+#whatIsIt2 h3 {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 60px;
+}
+
+.whatIsIt2Cont {
+    display: flex;
+    justify-content: center;
+}
+
+.whatIsItBlock {
+    display: flex;
+    width: 70%;
+}
+
+.whatIsItBlock p {
+    margin: 25px 0;
+}
+
+.whatIsItText {
+    width: 50%;
+    padding: 0 60px 0 0;
+}
+
+.whatIsItText h4 {
+    font-weight: 600;
+}
+
+.whatIsItImg {
+    width: 50%;
+}
+
+/* end whatItIs section */
+
+/* start dignity section */
+
+#dignity {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 33px;
+}
+
+.digs {
+    width: 70%;
+    display: flex;
+}
+
+.dig {
+    border: #090f14 1px solid;
+    border-top: none;
+    width: 30%;
+    margin: 0 5px;
+    text-align: center;
+}
+
+/* end dignity section */
