@@ -1,0 +1,155 @@
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-text {
+    color: #090f14
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #090f14;
+    /* font-size: 28pt; */
+    font-family: 'Century Gothic';
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #0d151c;
+    background-color: transparent
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #0d151c;
+    background-color: #e7e7e7
+}
+
+.navbar-default .navbar-nav>.disabled>a,
+.navbar-default .navbar-nav>.disabled>a:hover,
+.navbar-default .navbar-nav>.disabled>a:focus {
+    color: #0d151c;
+    background-color: transparent
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-nav {
+    margin: 0 200px;
+}
+
+.logo {
+    height: 100%;
+}
+
+#logoImg {
+    height: 100%;
+}
+
+#whatItIs {
+    background-image: url("../images/whatItIsBackground.png");
+    display: flex;
+    justify-content: flex-end;
+    padding: 65px 0 0 0;
+}
+
+.cont {
+    display: flex;
+    width: 70%;
+}
+
+.first {
+    /* background-color: #fff; */
+    padding: 50px 40px 40px 0;
+    width: 70%;
+}
+
+.first h2 {
+    color: #fff;
+    font-family: 'Century Gothic';
+}
+
+.first p {
+    margin: 25px 0 0 0;
+    color: #e4e4e4;
+    font-size: 16px;
+}
+
+.second {
+    /* background-color: #090f14; */    
+    padding: 50px 0;    
+    width: 50%;
+}
+
+.devices {
+    padding: 60px 0;
+    color: #e4e4e4;
+    font-size: 30pt;
+}
+
+.fa {
+    padding: 0 15px 0 0;
+}
+
+.devicesText {
+    font-size: 16px;
+}
+
+.getOrderButton {
+    width: 360px;
+    height: 72px;
+    background-color: #f4f3f2;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    /* vertical-align: bottom; */
+}
+
+.getOrderButtonText {
+    color: #0e141c;
+    font-size: 24px;
+    font-family: 'Century Gothic';
+    font-weight: 500;
+}
+
+/* start advantage section */
+
+#advantage {
+    background-color: #f4f3f2;
+    
+    width: 100%;
+}
+
+.advs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.adv {
+    margin: 96px;
+    font-family: 'Century Gothic';
+}
+
+.advImg {
+    width: 200px;
+    height: 200px;
+    border: 5px #fff solid;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.adv h4 {
+    color: #272727;
+    text-align: center;
+}
+
+.adv p {
+    color: #363636;
+    text-align: center;
+}
+/* end advantage section */
