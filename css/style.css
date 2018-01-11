@@ -205,15 +205,21 @@
     width: 50%;
 }
 
+
 /* end whatItIs section */
+
 
 /* start dignity section */
 
-#dignity {
+#dignitySection {
+    padding: 33px;
+    font-family: 'Century Gothic';
+}
+
+.dignity {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 33px;
 }
 
 .digs {
@@ -222,11 +228,152 @@
 }
 
 .dig {
-    border: #090f14 1px solid;
-    border-top: none;
     width: 30%;
     margin: 0 5px;
     text-align: center;
+    /* border: #000 1px solid; */
+    border: #ebeae9 1px solid;
+    border-top: none;
 }
 
+.dig img {
+    width: 30%;
+}
+
+.dig p {
+    border-top: none;
+    padding: 30px 25px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    margin: 42px 0 0 0;
+}
+
+.orderButt {
+    width: 240px;
+    border-radius: 20px;
+    background: linear-gradient(#3d4d60, #2d3a4a);
+}
+
+.orderButt p {
+    color: #e4e4e4;
+    padding: 14px 60px 8px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.discText {
+    color: #3d4d60;
+    text-align: center;
+    margin: 7px;
+}
+
+
 /* end dignity section */
+
+
+/* start reviews section */
+
+#reviews {
+    background-image: url("../images/pexels-photo-medium.png");
+    padding: 50px 0;
+}
+
+.revBlock {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px 20px 10px 0;
+}
+
+.revItem {
+    display: flex;
+    justify-content: center;
+}
+
+.imgAvatar {
+    margin: 0 17px 0 auto;
+}
+
+#reviews h3 {
+    text-align: center;
+    color: #e4e4e4;
+}
+
+.revText {
+    color: #2e3b4a;
+}
+
+.info {
+    width: 100%;
+}
+
+.comment {
+    width: 80%;
+}
+
+.name {
+    color: #858484;
+    float: left;
+}
+
+.date {
+    color: #b1b1b1;
+    float: right;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators li {
+    background-color: #efefef;
+    border: #8a8889;
+}
+
+.carousel-indicators .active {
+    background-color: #464646;
+    border: #222222;
+}
+
+/* end reviews section */
+
+/* start order section */
+
+#orderSection {
+    background-color: #fff;
+    padding: 47px 0;
+    width: 100%
+}
+
+.orderSectionCont {
+    display: flex;
+    justify-content: center;
+}
+
+.orderDiscount {
+    width: 50%;
+    border-right: #464646 2px solid;
+}
+
+.orderForm {
+    width: 50%;
+}
+
+.orderDiscount h2 {
+    color: #3a3b3c;
+    text-align: center;
+}
+
+
+/* end order section */
