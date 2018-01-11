@@ -109,6 +109,7 @@
 }
 
 .getOrderButtonText {
+    padding: 17px 0 0 0;
     color: #0e141c;
     font-size: 24px;
     font-family: 'Century Gothic';
@@ -121,12 +122,14 @@
 #advantage {
     background-color: #f4f3f2;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .advs {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 70%;
 }
 
 .adv {
@@ -234,6 +237,7 @@
     /* border: #000 1px solid; */
     border: #ebeae9 1px solid;
     border-top: none;
+    box-shadow: 0px 5px 5px 2px rgba(218,216,215,1);
 }
 
 .dig img {
@@ -346,34 +350,162 @@
     border: #222222;
 }
 
+
 /* end reviews section */
+
 
 /* start order section */
 
 #orderSection {
     background-color: #fff;
-    padding: 47px 0;
-    width: 100%
 }
 
 .orderSectionCont {
     display: flex;
     justify-content: center;
+    padding: 70px 0;
 }
 
 .orderDiscount {
     width: 50%;
     border-right: #464646 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.freeDelivery {
+    position: relative;
+    top: -36px;
+    left: 597px;
+    width: 100px;
+    height: 100px;
 }
 
 .orderForm {
     width: 50%;
 }
 
-.orderDiscount h2 {
+.orderTitle h2 {
     color: #3a3b3c;
     text-align: center;
 }
 
+.discBlock {
+    border: #a1a1a1 2px solid;
+    padding: 22px 87px;
+    text-align: center;
+}
+
+.discproc {
+    color: #ed2727;
+    font-size: 32pt;
+}
+
+.discprocdc {
+    color: #a5a5a5;
+    font-size: 30pt;
+}
+
+.aed2 {
+    color: #3f4243;
+    text-decoration: line-through;
+    font-size: 26pt;
+}
+
+.aed {
+    color: #da2828;
+    font-size: 30pt;
+}
+
+.offerText {
+    color: #3f4243;
+    font-size: 24pt;
+}
+
+.timer_text {
+    font-size: 20px;
+    color: #999;
+    font-weight: 300;
+}
+
+.timer_text2 {
+    font-size: 30px;
+    color: #999;
+    font-weight: 300;
+    text-align: center;
+}
+
+.timer_text2 span {
+    font-size: 35px;
+    color: red;
+    font-weight: 700;
+}
+
+.timer {
+    border-radius: 2px;
+    /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, .2); */
+    display: inline-block;
+    margin: 0 auto;
+    /* margin: 25px; */
+    padding: 0 30px 30px;
+}
+
+.timer__item {
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.timer__item+.timer__item {
+    margin-left: 20px;
+}
+
+.timer__value,
+.timer__label {
+    display: block;
+}
+
+.timer__value {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    color: #7e7e7e;
+}
+
+.timer__label {
+    color: #3f4243;
+    font-size: 14px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+
+/* second section */
+
+.orderForm {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.form-control {
+    border-color: #464646;
+    border-radius: 0px;
+}
+
+.inputH {
+    margin: 8px 0;
+}
+
+.sendButton {
+    background-color: #6dcff6;
+    border: none;
+    color: #fff;
+    /* padding: 10px 35px; */
+    /* font-size: 16pt; */
+}
 
 /* end order section */
